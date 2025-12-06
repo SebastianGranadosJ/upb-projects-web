@@ -9,7 +9,8 @@
   "scripts": {
     "build": "rm -rf ./build && tsc",
     "render:start": "node build/index.js",
-    "render:build": "npm install --include=dev && npm run build && npm run copy:templates",
+    "render:build": "npm install --include=dev && npm run build && npm run copy:templates && npm run copy:public",
+    "copy:public": "cp -R ./src/public ./build/public",
     "copy:templates": "cp -R ./src/template ./build/template",
     "dev": "tsnd ./src/index.ts",
     "test": "jest --verbose",
