@@ -4,6 +4,9 @@
 This project is a web application designed to present the projects developed by students of the **Universidad Pontificia Bolivariana (UPB)** during the **Integrative Projects Exhibition** of the Systems and Informatics Engineering program.  
 The platform displays all submitted projects as article-style entries, including titles, descriptions, images, and **teacher comments** with their opinions and evaluations of each project.
 
+👉 **Live Site:**  
+https://upb-projects-web.onrender.com/news/v1.0/main
+
 ---
 
 ## 🏗️ Architecture & Technologies
