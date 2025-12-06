@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "rm -rf ./build && tsc",
-     "render:start": "npm install && npm run build && npm start",
+     "render:start": "npm install && npm run build",
     "dev": "tsnd ./src/index.ts",
     "test": "jest --verbose",
     "test-c": "jest --coverage --runInBand",
