@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "rm -rf ./build && tsc",
+    "start": "node build/index.js",
     "render:build": "npm install && npm run build",
     "dev": "tsnd ./src/index.ts",
     "test": "jest --verbose",
