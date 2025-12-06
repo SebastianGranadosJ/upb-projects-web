@@ -1,0 +1,972 @@
+[
+  {
+    "title": "Nexus Battle IV: Vizla — Un recordatorio de que los fracasos también enseñan",
+    "projectName": "Nexus Battle IV: Vizla",
+    "groupMembers": [
+      "Daniel Felipe Aguilar Latorre",
+      "Pablo Antonio Bravo Vergara",
+      "Santiago Gomez Cadena",
+      "David Ricardo Hernandez Carranza",
+      "Carlos Fernando Ortiz Vargas",
+      "Andres Felipe Pico Garcia"
+    ],
+    "subject": "Proyecto Integrador II",
+    "shortDescription": "El equipo Vizla presentó su módulo de usuarios alojado en Google Cloud. A pesar de las buenas intenciones técnicas, el proyecto no logró consolidar un producto funcional, convirtiéndose en una valiosa lección sobre disciplina y trabajo colaborativo.",
+    "content": "Durante la jornada Nexus Battle IV: “A New Hope”, el equipo Vizla presentó su proyecto enfocado en el desarrollo del módulo de usuarios desplegado en Google Cloud. Su propuesta técnica incluía tres servicios integrados y una base de datos no relacional enlazada mediante un directorio activo. Aunque la idea era ambiciosa, el equipo reconoció dificultades en la ejecución y falta de compromiso durante los sprints.\r\n\r\nLos jurados enfatizaron la importancia de la autocrítica. El profesor Briceño señaló la ausencia de un producto tangible y la falta de aplicación de los valores de SCRUM. La profesora principal cuestionó la presentación, instando al equipo a dejar de justificar los fallos y asumirlos como parte del aprendizaje. Finalmente, Sandra destacó la valentía del grupo al presentarse pese al fracaso, resaltando que este tipo de experiencias sirven de ejemplo para el resto.\r\n\r\nVizla deja una reflexión importante: en ingeniería, el error no define el talento, sino la disposición para aprender de él.",
+    "mainImage": "proyecto1.jpg",
+    "date": "2025-10-28T23:38:09.500Z",
+    "quotes": [
+      {
+        "quote": "No hay producto, cuáles son los valores de SCRUM, no se ven reflejados.",
+        "quoteAuthor": "Briceño",
+        "quoteImage": "briceno.jpg"
+      },
+      {
+        "quote": "El presentar, así sea un fracaso, es un ejemplo para los demás grupos. Me gustaría que digieran qué fue esa reflexión del proyecto.",
+        "quoteAuthor": "Sandra",
+        "quoteImage": "sandra.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Nexus Battle IV: Eldar — Un módulo de inventario con bases sólidas y mejoras pendientes",
+    "projectName": "Nexus Battle IV: Eldar",
+    "groupMembers": [
+      "Pedro Mateo Espinel Dominguez",
+      "Daniel Felipe Gutierrez Mejia",
+      "Diego Alejandro Moreno Velandia",
+      "Lenny Alejandro Rincon Ramirez",
+      "Brenda Luz Salcedo Hernandez",
+      "Diego Alejandro Suarez Mendoza"
+    ],
+    "subject": "Proyecto Integrador II",
+    "shortDescription": "El equipo Eldar presentó el sistema de inventario de Nexus Battle IV, destacando un diseño MVC funcional y un despliegue en Google Cloud. Aunque mantuvo buena consistencia técnica, enfrentó observaciones sobre la estimación de tareas y la aplicación de IA.",
+    "content": "El grupo Eldar, responsable del módulo de inventario del videojuego Nexus Battle IV, expuso una arquitectura basada en el patrón MVC y desplegada mediante Google Cloud Platform. Su objetivo fue permitir la gestión de ítems y su interacción con otros módulos como subastas o misiones. Durante los tres sprints, el equipo mantuvo un avance constante, alcanzando cerca del 80% del desarrollo proyectado.\r\n\r\nLos jurados destacaron su progreso, aunque señalaron áreas de mejora. Danith observó que las historias de usuario tenían puntos de estimación excesivos, recomendando una mejor planificación para futuros proyectos. Francisco solicitó mayor claridad sobre la integración de IA, mientras que el docente Lenin enfatizó la necesidad de utilizar herramientas más avanzadas y de perfeccionar los diagramas técnicos.\r\n\r\nA pesar de las críticas, Eldar demostró solidez conceptual y capacidad de trabajo en equipo, dejando una base importante para los siguientes desarrollos del ecosistema Nexus Battle.",
+    "mainImage": "proyecto2.jpg",
+    "date": "2025-10-28T23:38:09.500Z",
+    "quotes": [
+      {
+        "quote": "Los puntos de estimación de las historias están muy altos; se espera que se haya reconocido el error y no se repita.",
+        "quoteAuthor": "Danith",
+        "quoteImage": "danith.jpg"
+      },
+      {
+        "quote": "El uso de herramientas de nivel menor al requerido es un error considerable; los diagramas pueden mejorar significativamente.",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Nexus Battle IV: Kryze — Estrategia, aleatoriedad y aprendizaje continuo",
+    "projectName": "Nexus Battle IV: Kryze",
+    "groupMembers": [
+      "Ruben Santiago Blandon Ardila",
+      "Juan Pablo Carvajal Giraldo",
+      "Jesus David Falon Palmezano",
+      "Juan David Fuentes Patiño",
+      "Jose Daniel Leguizamo Vasquez",
+      "Camilo Andres Rodriguez Forero"
+    ],
+    "subject": "Proyecto Integrador II",
+    "shortDescription": "Kryze presentó el módulo de juego de Nexus Battle IV, destacando la implementación de mecánicas de combate con cálculos pseudoaleatorios y una arquitectura sólida en Google Cloud.",
+    "content": "El equipo Kryze fue el encargado del desarrollo del módulo de juego dentro de Nexus Battle IV. Su presentación incluyó el diseño de un sistema de combate dividido en cinco fases, en el que las decisiones se ven afectadas por variables pseudoaleatorias, brindando realismo a las batallas. Su infraestructura, desplegada en Google Cloud, mostró una organización técnica adecuada y un enfoque claro en la modularidad.\r\n\r\nDurante la evaluación, los jurados resaltaron el valor del proyecto, aunque identificaron aspectos a reforzar. Danith pidió mayor claridad sobre el uso de GitHub Actions y la protección de datos. Lenin subrayó la relevancia del cálculo aleatorio como componente clave de la toma de decisiones tecnológicas. Sandra, por su parte, elogió el progreso del grupo, señalando que su desarrollo demuestra madurez y evolución en la carrera.\r\n\r\nKryze destacó por su solidez técnica y su comprensión del marco Scrum, consolidándose como uno de los equipos con mejor visión de integración tecnológica dentro del ecosistema Nexus Battle IV.",
+    "mainImage": "proyecto3.jpg",
+    "date": "2025-10-28T23:38:09.500Z",
+    "quotes": [
+      {
+        "quote": "Con este proyecto se muestra que con toda la trayectoria dentro de la carrera se puede ver un progreso y un desarrollo ejemplar.",
+        "quoteAuthor": "Sandra",
+        "quoteImage": "sandra.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Nexus Battle IV: Rook — Subastas inteligentes y una IA con gran potencial",
+    "projectName": "Nexus Battle IV: Rook",
+    "groupMembers": [
+      "Juan Eduardo Benitez Pajaro",
+      "Santiago Castellanos Rincon",
+      "Luis Alfredo Fuentes Romero",
+      "Karen Nicol Dayanna Lizarazo Ortiz",
+      "William Oswaldo Sanabria Gutierrez",
+      "Gian Kieffer Toledo De La Cruz"
+    ],
+    "subject": "Proyecto Integrador II",
+    "shortDescription": "Rook presentó el módulo de subastas y chatbot de Nexus Battle IV, integrando inteligencia artificial para interactuar con los jugadores y explicar el funcionamiento del juego.",
+    "content": "El equipo Rook se encargó de desarrollar el módulo de subastas y el chatbot inteligente de Nexus Battle IV. Su presentación destacó la funcionalidad del sistema de pujas y el comportamiento conversacional de la IA, que permite responder preguntas relacionadas con el juego. Los estudiantes mostraron la estructura de datos, los modelos de red neuronal y las métricas de aprendizaje obtenidas durante su desarrollo.\r\n\r\nEntre los comentarios, Briceño elogió el trabajo con IA, aunque pidió mayor detalle sobre la arquitectura de la red. Danith cuestionó cómo la deuda técnica afectó el avance del proyecto, mientras que Lenin realizó una revisión crítica sobre la arquitectura y el uso de puertos, destacando la necesidad de apegarse más a las buenas prácticas de ingeniería.\r\n\r\nA pesar del exceso de información técnica en la exposición, Rook demostró un dominio profundo del tema, ofreciendo una de las propuestas más completas e innovadoras del evento.",
+    "mainImage": "proyecto4.jpg",
+    "date": "2025-10-28T23:38:09.500Z",
+    "quotes": [
+      {
+        "quote": "Muy buen trabajo con la IA, pero tiene algunos detalles; ¿dónde está el modelo de la red neuronal?",
+        "quoteAuthor": "Briceño",
+        "quoteImage": "briceno.jpg"
+      },
+      {
+        "quote": "El buen planteamiento y toma de decisiones es lo que nos salvará de la IA; háblame en ingeniería, bien por los modelos.",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Nexus Battle IV: Wren — Inteligencia artificial en el corazón de la batalla",
+    "projectName": "Nexus Battle IV: Wren",
+    "groupMembers": [
+      "Julian Alberto Espitia Bueno",
+      "Jeison Steven Florez Julio",
+      "Raul Santiago Hallado Abaunza",
+      "Sergio Eliecer Nuñez Rincon",
+      "Johan David Rodriguez Castro",
+      "Joseph Camilo Urquijo Bautista"
+    ],
+    "subject": "Proyecto Integrador II",
+    "shortDescription": "El grupo Wren desarrolló la IA de batalla de Nexus Battle IV, aplicando técnicas de aprendizaje profundo para crear un sistema adaptativo, aunque con dificultades para mostrar resultados en vivo.",
+    "content": "Wren asumió la compleja tarea de diseñar la inteligencia artificial de combate dentro del proyecto Nexus Battle IV. Su enfoque consistió en crear un sistema de IA capaz de reaccionar dinámicamente ante las decisiones del jugador, usando técnicas de aprendizaje profundo y parámetros definidos para la toma de decisiones. Aunque los resultados finales no pudieron demostrarse completamente durante la jornada, el trabajo evidenció un esfuerzo técnico considerable.\r\n\r\nLos jurados destacaron la dificultad del reto asumido. Briceño manifestó que, a pesar de las menciones constantes a la IA, no se comprendía claramente su estructura. Danith observó inconsistencias en los indicadores de avance, mientras que Lenin incentivó al grupo a defender su producto y mostrar mayor seguridad ante las críticas.\r\n\r\nWren dejó en claro que los proyectos ambiciosos requieren constancia y comunicación efectiva. Su trabajo, aunque imperfecto, reflejó una comprensión sólida de los conceptos de inteligencia artificial aplicados a videojuegos.",
+    "mainImage": "proyecto5.jpg",
+    "date": "2025-10-28T23:38:09.500Z",
+    "quotes": [
+      {
+        "quote": "Escuché cincuenta y siete veces la palabra IA y aún así no me queda claro cómo está formada esta y cómo funciona.",
+        "quoteAuthor": "Briceño",
+        "quoteImage": "briceno.jpg"
+      },
+      {
+        "quote": "Si se sabe lo que se pregunta no se debe dudar; no hay que ser pasivos ante las críticas.",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Arryn — Comparador de precios con enfoque técnico y madurez ética",
+    "projectName": "Arryn",
+    "groupMembers": [
+      "Juan Camilo Gómez Manotas",
+      "Juan David Monsalve Niño",
+      "Nicolás Rodríguez Acevedo",
+      "Sofia Santis",
+      "Tomás Uribe Sánchez"
+    ],
+    "subject": "Proyecto Integrador II",
+    "shortDescription": "El equipo Arryn desarrolló una aplicación web para comparar precios mediante técnicas de web scraping, desplegada en AWS con una base de datos MongoDB. Aunque su funcionalidad fue exitosa, el grupo reconoció los dilemas éticos del scraping comercial.",
+    "content": "El equipo Arryn presentó una aplicación web enfocada en comparar precios y detalles de compra de las principales cadenas nacionales. Su sistema utilizó web scraping para recolectar información, desplegándose en AWS y gestionando los datos con MongoDB. El marco de trabajo elegido fue SCRUM, con rotación semanal del Scrum Master y seguimiento mediante JIRA. Además, emplearon GitHub Secrets para la protección del código fuente y un dominio gratuito de Name.com. \r\n\r\nLa aplicación logró extraer correctamente la información de las páginas fuente, aunque los jurados destacaron el riesgo de legalidad inherente al scraping comercial. Pese a ello, el grupo mostró formalidad, respeto y conciencia sobre la ética en ingeniería. Briceño señaló la falta de cohesión grupal, mientras que Lenin observó la necesidad de un marco conceptual más sólido y claridad al usar términos técnicos complejos.\r\n\r\nArryn demostró competencia técnica y una reflexión responsable sobre los límites éticos del desarrollo tecnológico.",
+    "mainImage": "proyecto6.jpg",
+    "date": "2025-10-28T14:00:00.000Z",
+    "quotes": [
+      {
+        "quote": "Veinte minutos y no entiendo qué hace su producto; escucho mucho 'yo hice' y poco trabajo en equipo.",
+        "quoteAuthor": "Briceño",
+        "quoteImage": "briceno.jpg"
+      },
+      {
+        "quote": "Muchos términos sin explicar: ¿qué es un orquestador, qué es un scrapper? Sin marco conceptual no se puede defender nada.",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Baratheon — Centralización de eventos y chatbot informativo",
+    "projectName": "Baratheon",
+    "groupMembers": [
+      "Fernando Cancelado Figueroa",
+      "Zahret Valentina Fuentes Bottia",
+      "Nicolás García Mejía",
+      "Ian Dante Leal Arenas",
+      "Bryan Gonzalo Lizcano Durán"
+    ],
+    "subject": "Proyecto Integrador II",
+    "shortDescription": "Baratheon propuso una plataforma para centralizar información de eventos locales mediante scraping y un chatbot con aprendizaje de preguntas frecuentes, desplegada en AWS con FastAPI.",
+    "content": "El equipo Baratheon desarrolló una aplicación que centraliza información de eventos locales en Colombia, recopilando datos de distintas fuentes web. Para el frontend utilizaron React, aplicando un patrón de diseño funcional, mientras que el backend se implementó con FastAPI y se desplegó en AWS. \r\n\r\nAunque se aplicó la metodología SCRUM, los jurados notaron deficiencias en la ejecución de sus valores y en la claridad del marco conceptual. El chatbot, entrenado con preguntas frecuentes, fue capaz de realizar búsquedas sobre la información recolectada, mostrando una integración interesante entre scraping y procesamiento de lenguaje natural.\r\n\r\nLas observaciones se centraron en la falta de dominio conceptual. Francisco preguntó por la definición de CRM, Briceño cuestionó la comprensión del flujo de IA, y Lenin criticó el uso genérico de tecnologías, sugiriendo una mejor selección para destacar la solución. Pese a ello, el grupo mostró organización técnica y compromiso con la presentación.",
+    "mainImage": "proyecto7.jpg",
+    "date": "2025-10-28T14:30:00.000Z",
+    "quotes": [
+      {
+        "quote": "¿Qué es CRM? Son conceptos que deben estar claramente definidos en un marco conceptual.",
+        "quoteAuthor": "Francisco",
+        "quoteImage": "francisco.jpg"
+      },
+      {
+        "quote": "¿Quién hizo la IA y cómo funciona su flujo de trabajo? Respira, chico, necesito entender qué necesito para entrenar un chatbot.",
+        "quoteAuthor": "Briceño",
+        "quoteImage": "briceno.jpg"
+      },
+      {
+        "quote": "No es necesario usar todas las tecnologías posibles; usen las correctas. Menos plataformas, más enfoque.",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Lannister — Noticias inteligentes con análisis emocional",
+    "projectName": "Lannister",
+    "groupMembers": [
+      "Samuel Arango Díaz",
+      "Juan Manuel Guerrero Rueda",
+      "Vanessa Andrea Moreno Velandia",
+      "Néstor Steven Pabón Flórez",
+      "Sergio Alejandro Sabaneta Moreno"
+    ],
+    "subject": "Proyecto Integrador II",
+    "shortDescription": "El equipo Lannister construyó una plataforma de noticias con scraping, crawling y análisis de emociones mediante VADER y un chatbot basado en mBERT, alojada en AWS.",
+    "content": "Lannister presentó una plataforma de noticias que integra scraping y crawling para obtener y analizar artículos distribuidos en internet. La información recolectada se almacena en una base de datos Django no relacional, permitiendo que un chatbot responda consultas de los usuarios. Además, aplicaron VADER para asociar emociones a palabras, y SonarQube Cloud para las pruebas automatizadas.\r\n\r\nDurante la exposición, enfrentaron cuestionamientos sobre la justificación del uso de modelos de lenguaje. Briceño preguntó por qué eligieron mBERT y cómo midieron la precisión de su modelo, mientras Lenin indagó sobre la legalidad del scraping y la definición de “noticia”. A pesar de las críticas, Lannister presentó un trabajo técnicamente ambicioso, con una sólida comprensión del procesamiento de texto y su aplicación en inteligencia artificial.",
+    "mainImage": "proyecto8.jpg",
+    "date": "2025-10-28T15:00:00.000Z",
+    "quotes": [
+      {
+        "quote": "¿Por qué usaron mBERT? ¿De cuánto fue la precisión? Necesito ver métricas reales.",
+        "quoteAuthor": "Briceño",
+        "quoteImage": "briceno.jpg"
+      },
+      {
+        "quote": "¿Cómo saben que tienen permiso para hacer scraping? Saltarse la ley no es opcional.",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      }
+    ]
+  },
+  {
+    "title": "StarkAdvisor — Inteligencia financiera con visión global",
+    "projectName": "StarkAdvisor",
+    "groupMembers": [
+      "Juan Sebastián Granados Jaimes",
+      "Juan Carlos Niño Osorio",
+      "Leyder Steven Ortiz Jaimes",
+      "Jorge Luis Osorio Silva",
+      "Carlos Alberto Quintero Arias"
+    ],
+    "subject": "Proyecto Integrador II",
+    "shortDescription": "Stark presentó una plataforma financiera con scraping, análisis de sentimiento y un chatbot bilingüe, capaz de recomendar un ‘trade del día’ basado en modelos de IA.",
+    "content": "El equipo Stark desarrolló una aplicación web que ofrece información financiera actualizada y análisis de mercado. Utilizando Django como framework backend y AWS para su despliegue, integraron scraping, un chatbot bilingüe y un sistema de recomendaciones automáticas. El modelo DistilBERT analiza el sentimiento de las noticias, mientras que un crontab actualiza los datos cada dos semanas.\r\n\r\nEl chatbot responde preguntas tanto en español como en inglés y recomienda un ‘trade del día’ basado en análisis de datos. El grupo demostró dominio de las herramientas y claridad conceptual. Briceño felicitó el trabajo, cuestionando la legalidad del uso de fuentes internacionales, mientras Lenin destacó la calidad de la exposición, aunque señaló una gestión Scrum poco visible. Stark consolidó una propuesta profesional y visionaria, con una ejecución ejemplar.",
+    "mainImage": "proyecto9.jpg",
+    "date": "2025-10-28T15:30:00.000Z",
+    "quotes": [
+      {
+        "quote": "Los felicito por el trabajo, pero ¿por qué los idiomas español e inglés? ¿Revisaron la legislación de las fuentes extranjeras?",
+        "quoteAuthor": "Briceño",
+        "quoteImage": "briceno.jpg"
+      },
+      {
+        "quote": "La explicación fue muy buena, pero no me queda claro si realmente aplicaron Scrum. Mucha gerencia, poco Scrum.",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Targaryen — Aprendizaje automático con scraping educativo",
+    "projectName": "Targaryen",
+    "groupMembers": [
+      "Juan Andrés Contreras Hernández",
+      "Karen Nicol Dayanna Lizarazo Ortiz",
+      "Raúl Reyl Pérez Navarro",
+      "María Angélica Parra Garzón",
+      "Jerson Arley Porras Lozano"
+    ],
+    "subject": "Proyecto Integrador II",
+    "shortDescription": "El grupo Targaryen desarrolló un rastreador de rutas de aprendizaje web con más de 10,000 recursos educativos, empleando APIs, bases de datos distribuidas y despliegue en AWS.",
+    "content": "Targaryen presentó un proyecto ambicioso centrado en la recopilación de rutas de aprendizaje y material educativo en línea. El sistema utiliza múltiples bases de datos y fragmentos de scraping, integrados mediante una API REST. Implementaron control de versiones y CI/CD en siete repositorios, con despliegue en AWS y Atlas Cloud. El grupo empleó SonarQube para pruebas y GitHub Actions con optimización de caché.\r\n\r\nLenin realizó una revisión crítica, señalando dudas sobre la gestión de historias de usuario, el uso de lambdas y conceptos poco definidos como ‘fluidez de experiencia’. Javier, por su parte, cuestionó si el equipo consultó sobre la legalidad del dominio. A pesar de los detalles, Targaryen destacó por su capacidad técnica y su comprensión del ciclo de desarrollo ágil.",
+    "mainImage": "proyecto10.jpg",
+    "date": "2025-10-28T16:20:00.000Z",
+    "quotes": [
+      {
+        "quote": "¿Hablaron de una historia con once puntos pendientes? Entonces, ¿solo completaron una historia?",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      },
+      {
+        "quote": "¿Consultaron el uso del dominio antes del despliegue?",
+        "quoteAuthor": "Javier",
+        "quoteImage": "proyecto10-quote2.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Tyrell — IA y scraping con despliegue en Azure",
+    "projectName": "Tyrell",
+    "groupMembers": [
+      "Daniel Felipe Aguilar Latorre",
+      "Cristián Andrés Gómez Jaimes",
+      "Cristian Julián Prada Rodríguez",
+      "Rubén Julián Quintero Oviedo",
+      "Juan Pablo Silva Vásquez"
+    ],
+    "subject": "Proyecto Integrador II",
+    "shortDescription": "El equipo Tyrell presentó un sistema de scraping e IA alojado en Azure, integrando BERT para entrenar su chatbot mediante la API Groq y monitoreo con Azure Monitor.",
+    "content": "El equipo Tyrell diseñó una plataforma alojada en Azure que combina scraping comercial y un chatbot entrenado con BERT a través de la API Groq. Su backend en Python se comunica con MongoDB Atlas y utiliza GitHub Actions para CI/CD. Además, incorporaron Azure Monitor para el seguimiento de métricas y rendimiento.\r\n\r\nDurante su exposición, Lenin observó una presentación poco formal, criticó la calidad del diagrama de arquitectura y pidió conclusiones más elaboradas. Aun con esas observaciones, el grupo demostró iniciativa técnica y dominio de los procesos de automatización y despliegue.",
+    "mainImage": "proyecto11.jpg",
+    "date": "2025-10-28T16:50:00.000Z",
+    "quotes": [
+      {
+        "quote": "La presentación fue muy informal; el diagrama de arquitectura no es bueno. Den conclusiones sin leer.",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Estructuras de Datos — Equipo 1: Un viaje incompleto, pero con actitud",
+    "projectName": "Equipo 1 — Estructuras de Datos",
+    "groupMembers": [
+      "Ángel Leonardo Lagos Salamanca",
+      "Xander Sebastián Pineda Larrota",
+      "Julián Mateo Sierra Vargas",
+      "Santiago Prada Pinilla"
+    ],
+    "subject": "Estructuras de Datos",
+    "shortDescription": "El grupo presentó un sistema de gestión ferroviaria desarrollado en Java bajo metodología en cascada. Aunque faltó una muestra funcional, el enfoque teórico y la actitud fueron rescatables.",
+    "content": "El equipo propuso un sistema de gestión de trenes, argumentando la necesidad de digitalizar los procesos ferroviarios. Utilizaron Java como lenguaje principal, apoyándose en Figma y Draw.io para la documentación y diseño. Eligieron la metodología en cascada por su estructura secuencial, aunque el resultado careció de una demostración funcional.\r\n\r\nLos jurados fueron críticos con la falta de contenido tangible. Francisco y Sandra señalaron la ausencia de video demostrativo, Lenin cuestionó la falta de responsabilidad y actitud, mientras Danith destacó la importancia de presentarse con lo poco o mucho disponible. A pesar de las carencias, se valoró el compromiso mostrado durante la exposición.",
+    "mainImage": "proyecto12.jpg",
+    "date": "2025-10-29T08:00:00.000Z",
+    "quotes": [
+      {
+        "quote": "Pararse ahí a leer no es lo correcto; hay partes sin diapositivas.",
+        "quoteAuthor": "Francisco",
+        "quoteImage": "francisco.jpg"
+      },
+      {
+        "quote": "Con lo poco o lo mucho, hay que pararse con actitud.",
+        "quoteAuthor": "Danith",
+        "quoteImage": "danith.jpg"
+      },
+      {
+        "quote": "La vida no es así, hay que cumplir con la responsabilidad. No vimos nada en la presentación.",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      }
+    ]
+  },
+  {
+  "title": "Un tren hacia la automatización: el intento del Equipo 2 en Estructuras de Datos",
+  "projectName": "Equipo 2 — Estructuras de Datos",
+  "groupMembers": ["Alexander Gómez Grajales", "Albert David López Pinzón", "Jhaider David Zambrano Parra"],
+  "subject": "Estructuras de Datos",
+  "shortDescription": "El Equipo 2 presentó una propuesta de sistema de gestión ferroviaria con enfoque en automatización y seguridad de datos. Aunque su dominio técnico fue destacable, la falta de organización y claridad en los objetivos limitó el impacto de la exposición.",
+  "content": "Durante su participación en la jornada de proyectos, el Equipo 2 de la materia Estructuras de Datos presentó una propuesta orientada a la digitalización del sistema ferroviario, buscando reemplazar los procesos manuales actuales con una gestión automatizada. El proyecto destacaba por integrar un servidor HTTP encargado de la comunicación entre los distintos módulos, junto con la implementación de técnicas de encriptación para proteger los datos almacenados.\n\nSin embargo, a pesar de su intención técnica, el grupo enfrentó dificultades en la presentación. Los objetivos fueron expuestos de forma confusa y sin una estructura metodológica clara. Aunque demostraron dominio sobre el dominio del problema, su falta de preparación afectó la coherencia de la exposición. Los jurados coincidieron en que la información era pertinente, pero mal organizada, lo que restó fuerza al mensaje técnico.\n\nAun así, se valoró el esfuerzo por incorporar aspectos de seguridad y conexión en red dentro del proyecto. La presentación cerró justo a tiempo, evidenciando que el grupo logró cubrir los puntos principales, aunque sin la profundidad esperada en una materia centrada en la aplicación de estructuras de datos y modelado computacional.",
+  "mainImage": "proyecto13.jpg",
+  "date": "2025-10-29T08:15:00.000Z",
+  "quotes": [
+    {
+      "quote": "Se nota una falta de preparación, pero se nota un mejor manejo en la presentación.",
+      "quoteAuthor": "Sandra",
+      "quoteImage": "sandra.jpg"
+    },
+    {
+      "quote": "Las conclusiones deben ser la investigación y no de la materia en sí; se nota que no practicaron, tómenselo en serio.",
+      "quoteAuthor": "Profesora",
+      "quoteImage": "proyecto2-quote2.jpg"
+    },
+    {
+      "quote": "¿Cuáles son las estructuras de su proyecto, qué tipo de grafo es, para qué es el árbol? Ustedes no tienen el nivel para un producto de seis capas.",
+      "quoteAuthor": "Lenin",
+      "quoteImage": "lenin.jpg"
+    },
+    {
+      "quote": "No pueden decir que no van a presentar algo por falta de tiempo. Se nota quién hizo el trabajo; no le dejen la responsabilidad a uno solo.",
+      "quoteAuthor": "Francisco",
+      "quoteImage": "francisco.jpg"
+    }
+  ]
+},
+{
+  "title": "Sistema ferroviario universitario — Entre buenas ideas y fallas de ejecución",
+  "projectName": "Equipo 3",
+  "groupMembers": [
+    "Rafael Camilo Marquez Almenarez",
+    "Jorge Andres Cardona Niño",
+    "Juan Jose Alba Palma"
+  ],
+  "subject": "Estructuras de Datos",
+  "shortDescription": "El grupo presentó un sistema de gestión de trenes con la intención de digitalizar procesos manuales. A pesar de la propuesta inicial, la presentación se vio afectada por errores en los diagramas y falta de conclusiones claras.",
+  "content": "Durante la jornada académica, el Equipo 3 presentó un proyecto que buscaba automatizar la gestión del transporte ferroviario de pasajeros. Su propuesta técnica pretendía reemplazar los procesos manuales por un sistema más eficiente, implementando metodologías ágiles como Kanban para la organización del trabajo.\r\n\r\nSi bien el planteamiento inicial fue coherente y su justificación aceptable, el grupo enfrentó dificultades en la correcta presentación de los requerimientos y en la estructura de sus diagramas. A pesar de manejar adecuadamente las herramientas y justificar los cambios realizados, las explicaciones ofrecidas no lograron transmitir la solidez esperada.\r\n\r\nLos comentarios de los evaluadores fueron claros: Sandra destacó que el esfuerzo se opacó por la falta de conclusiones; la profesora principal instó al grupo a aprender de los errores; y Lenin, aunque reconoció la complejidad del modelo, enfatizó la necesidad de diferenciar el uso del tablero Kanban del método Kanban.\r\n\r\nEl Equipo 3 deja una lección importante sobre la diferencia entre cumplir con una metodología y comprender realmente su propósito dentro del desarrollo de software.",
+  "mainImage": "proyecto14.jpg",
+  "date": "2025-10-29T08:30:00Z",
+  "quotes": [
+    {
+      "quote": "Todo un trabajo fue opacado por la falta de conclusiones.",
+      "quoteAuthor": "Sandra",
+      "quoteImage": "sandra.jpg"
+    },
+    {
+      "quote": "El modelo demuestra complejidad, pero hay que hablarlo; me da la impresión que usaron el tablero Kanban y no el método Kanban.",
+      "quoteAuthor": "Lenin",
+      "quoteImage": "lenin.jpg"
+    }
+  ]
+},
+{
+  "title": "Equipo 4 — La ausencia también comunica",
+  "projectName": "Equipo 4",
+  "groupMembers": [
+    "Maria Catalina Sanchez Saavedra",
+    "Juan Jose Gonzalez Rosales"
+  ],
+  "subject": "Estructuras de Datos",
+  "shortDescription": "El Equipo 4 no se presentó a la jornada de exposición, dejando vacante su espacio de evaluación y una oportunidad de aprendizaje perdida.",
+  "content": "Durante el espacio asignado a las presentaciones del curso de Estructuras de Datos, el Equipo 4 no se presentó. Su ausencia generó un vacío en la jornada, privándolos de recibir retroalimentación académica y de demostrar su proceso de trabajo.\r\n\r\nAunque las ausencias pueden deberse a distintas razones, en el contexto de un proyecto integrador, representan un incumplimiento académico y una oportunidad desaprovechada para el crecimiento técnico y profesional.\r\n\r\nEl silencio del grupo deja un recordatorio: en ingeniería, tan importante como el código es la responsabilidad con el proceso.",
+  "mainImage": "no-found.jpg",
+  "date": "2025-10-29T08:45:00Z",
+  "quotes": []
+},
+{
+  "title": "Equipo 5 — Cuando el proyecto nunca llega",
+  "projectName": "Equipo 5",
+  "groupMembers": [
+    "Juan Diego Bohorquez Vargas",
+    "Jose David Serrano Pertuz"
+  ],
+  "subject": "Estructuras de Datos",
+  "shortDescription": "El Equipo 5 no asistió a su presentación, cerrando su participación sin mostrar avances ni resultados del proyecto programado.",
+  "content": "El Equipo 5 no se presentó durante su turno en la jornada de proyectos del curso Estructuras de Datos. Sin exposición ni evidencias, el grupo quedó fuera del proceso de evaluación.\r\n\r\nMás allá de la ausencia, esta situación subraya la importancia de la planificación, el compromiso y la comunicación dentro de los equipos de trabajo. Un proyecto sin presentación no solo carece de producto, sino también de historia y aprendizaje.\r\n\r\nEl espacio vacío que dejaron sirve como ejemplo de cómo la falta de entrega afecta tanto la evaluación técnica como el crecimiento personal y profesional de un ingeniero en formación.",
+  "mainImage": "no-found.jpg",
+  "date": "2025-10-29T09:00:00Z",
+  "quotes": []
+},
+{
+  "title": "Urban Shoes — Una propuesta académica que une software e industria",
+  "projectName": "Urban Shoes",
+  "groupMembers": [
+    "Carlos David Figueroa Arguello",
+    "Gabriel Matias Rodriguez Castro",
+    "Jhostyn Santiago Gualdron Jaimes",
+    "Jorge Andres Gonzalez Figueroa",
+    "Juan Pablo Medina Meneses",
+    "Luis Eduardo Morales Palencia"
+  ],
+  "subject": "Ingeniería de Software",
+  "shortDescription": "Urban Shoes se destacó por su integración con ingeniería industrial, presentando un sistema MVC funcional de gestión e inventario, aunque con áreas de mejora en pruebas y documentación.",
+  "content": "El equipo Urban Shoes presentó un sistema de gestión e inventario basado en arquitectura MVC, desarrollado en colaboración con estudiantes de ingeniería industrial. Su objetivo fue optimizar el control de productos, empleando técnicas de hasheo, el patrón de diseño observador y la metodología de prototipado para recibir retroalimentación continua del cliente.\r\n\r\nEl grupo demostró un manejo adecuado de herramientas como GitHub y una comunicación efectiva con el cliente, pero la exposición evidenció fallas en la presentación visual y la documentación de pruebas. Los jurados resaltaron tanto el mérito del trabajo técnico como la necesidad de fortalecer la verificación de calidad del sistema.\r\n\r\nFrancisco insistió en la importancia de las pruebas como criterio de entrega; Lenin analizó la arquitectura, destacando el riesgo de mezclar responsabilidades; y Briceño cuestionó la falta de pruebas de aceptación.\r\n\r\nUrban Shoes reflejó un caso sólido de aplicación técnica con espacio para madurar en las etapas finales de aseguramiento de calidad.",
+  "mainImage": "proyecto17.jpg",
+  "date": "2025-10-29T09:45:00Z",
+  "quotes": [
+    {
+      "quote": "Sin pruebas no se puede entregar producto.",
+      "quoteAuthor": "Francisco",
+      "quoteImage": "francisco.jpg"
+    },
+    {
+      "quote": "¿Quién me certifica que esto funciona? Pruebas de aceptación.",
+      "quoteAuthor": "Briceño",
+      "quoteImage": "briceno.jpg"
+    }
+  ]
+},
+{
+  "title": "Rana Shoes — Tecnología con trazabilidad, pero con vacíos conceptuales",
+  "projectName": "Rana Shoes",
+  "groupMembers": [
+    "Andres Daniel Florez Mendoza",
+    "Angy Natalia Mejia Delgado",
+    "Cristian Camilo Chaparro Carvajal",
+    "Daniel Fernando Hoguin Sanchez",
+    "Javier Alexander Salazar Florez"
+  ],
+  "subject": "Ingeniería de Software",
+  "shortDescription": "El grupo Rana Shoes presentó un sistema web con API REST y trazabilidad de materias primas. Aunque la ejecución técnica fue destacable, la falta de documentación y claridad conceptual limitó el impacto de su propuesta.",
+  "content": "Rana Shoes presentó una aplicación web centrada en la trazabilidad y control de materias primas para una empresa industrial. La arquitectura del sistema se apoyó en un backend con Node.js y una API REST funcional, destacando un enfoque de desarrollo iterativo mediante prototipos.\r\n\r\nEl grupo demostró conocimientos técnicos adecuados, pero la presentación careció de documentación formal y precisión en los conceptos expresados. Los jueces cuestionaron la falta de un diagrama claro y la definición de términos clave como 'seguridad' y 'eficiencia operativa'.\r\n\r\nBriceño reclamó la ausencia de documentación y API visibles; Lenin y Francisco pidieron mayor claridad en los patrones de diseño aplicados y en la arquitectura; y Danith, con humor, señaló la falta de coherencia entre lo técnico y lo presentado.\r\n\r\nAun con sus vacíos conceptuales, Rana Shoes demostró un avance tangible en el desarrollo web y una aplicación práctica de metodologías orientadas al cliente.",
+  "mainImage": "proyecto18.jpg",
+  "date": "2025-10-29T10:15:00Z",
+  "quotes": [
+    {
+      "quote": "¿Dónde está mi documentación y dónde está mi API REST? Ese diagrama no me dice nada.",
+      "quoteAuthor": "Briceño",
+      "quoteImage": "briceno.jpg"
+    },
+    {
+      "quote": "¿Qué patrón de diseño utilizaron? No lo veo, dónde lo usaron y por qué.",
+      "quoteAuthor": "Francisco",
+      "quoteImage": "francisco.jpg"
+    }
+  ]
+},
+{
+  "title": "Veterinaria SOS — Integración técnica con gestión compleja",
+  "projectName": "Veterinaria SOS",
+  "groupMembers": [
+    "David Eduardo Florez Duran",
+    "David Ricardo Carvajal Barragan",
+    "Jose David Mora Patiño",
+    "Juan David Ordoñez Ferreira",
+    "Juan David Tellez Guisa",
+    "Juan Pablo Arenas Avendaño",
+    "Libardo Bravo Duran"
+  ],
+  "subject": "Ingeniería de Software",
+  "shortDescription": "Veterinaria SOS combinó múltiples módulos para mejorar la gestión de inventarios y ventas, aplicando patrones de diseño sólidos, aunque con deficiencias conceptuales y metodológicas.",
+  "content": "Veterinaria SOS se presentó como una solución académica para optimizar los sistemas de inventario y ventas de un negocio veterinario. El equipo integró diferentes módulos de gestión para reducir inconsistencias operativas, aplicando patrones de diseño como Singleton, Factory y la arquitectura MVC.\r\n\r\nLa metodología adoptada fue el modelo espiral, permitiendo iteraciones de mejora en cada fase de desarrollo. A pesar de sus avances técnicos, el grupo presentó carencias en el marco conceptual y en la claridad de sus explicaciones durante la exposición. Los evaluadores destacaron la dificultad de coordinar a un grupo numeroso y la falta de documentación sólida.\r\n\r\nBriceño valoró el trabajo pero pidió información más concreta sobre costos y pruebas realizadas; la profesora sugirió un mejor uso de las diapositivas; y Francisco cuestionó la elección de arquitectura frente a alternativas monolíticas.\r\n\r\nEl proyecto evidenció compromiso técnico, pero también la necesidad de fortalecer la comunicación y la planificación dentro de equipos grandes.",
+  "mainImage": "proyecto19.jpg",
+  "date": "2025-10-29T10:45:00Z",
+  "quotes": [
+    {
+      "quote": "Buen trabajo, pero ¿cuánto cuesta el proyecto y qué tipos de pruebas hicieron?",
+      "quoteAuthor": "Briceño",
+      "quoteImage": "briceno.jpg"
+    },
+    {
+      "quote": "Intenten que las diapositivas sean una ayuda, no un bloque de texto.",
+      "quoteAuthor": "Profesora",
+      "quoteImage": "proyecto7-quote2.jpg"
+    }
+  ]
+},
+{
+  "title": "Avitech: principios sólidos y problemas de comunicación",
+  "projectName": "AVITECH",
+  "groupMembers": [
+    "Andres F. Sanchez Palacio",
+    "Carlos F. Pimiento Fonseca",
+    "Isabella Montoya Granados",
+    "Jose O. Porras Prada",
+    "Melisa Peterson Calderon",
+    "Nestor Guillermo N. Lasso Ramirez",
+    "Pablo A. Bravo Vergara",
+    "Simon Perez Gomez"
+  ],
+  "subject": "Ingeniería de Software",
+  "shortDescription": "Avitech propuso una aplicación de escritorio para la gestión de fincas y activos. Aunque su estructura técnica destacó por el uso de principios SOLID y patrones de diseño, la presentación evidenció una falta de comunicación interna y dominio conceptual.",
+  "content": "El equipo Avitech presentó su proyecto dentro del marco de Ingeniería de Software, proponiendo una aplicación de escritorio enfocada en la gestión integral de activos de finca. Su propuesta técnica incluyó la aplicación de principios SOLID, junto con los patrones de diseño Observer y Factory, además de una arquitectura Modelo-Vista-Controlador. Estas decisiones derivaron del análisis de requerimientos y del enfoque metodológico de prototipado, que les permitió mantener una comunicación constante con su cliente.\r\n\r\nSin embargo, durante la sustentación, la amplitud de requerimientos y modelos superó el tiempo asignado, dejando fuera explicaciones importantes. El profesor Francisco resaltó la falta de claridad conceptual, invitando al grupo a revisar nuevamente la teoría de UML y sus fundamentos de modelado. La crítica principal se centró en la desconexión entre el planteamiento técnico y su representación visual.\r\n\r\nA pesar de los errores de presentación, Avitech dejó la sensación de ser un grupo con bases técnicas firmes, que deberá mejorar su comunicación para proyectar con claridad la solidez de su trabajo.",
+  "mainImage": "proyecto20.jpg",
+  "date": "2025-10-29T11:45:00Z",
+  "quotes": [
+    {
+      "quote": "Por favor tomen otra vez el libro de UML, porque de UML no tiene nada. Debería tener al menos los conceptos básicos, no pueden decir que escogieron algo porque sí, falta de comunicación.",
+      "quoteAuthor": "Francisco",
+      "quoteImage": "francisco.jpg"
+    }
+  ]
+},
+{
+  "title": "Centro de Desarrollo de Software: un esfuerzo visible, pero sin enfoque",
+  "projectName": "Centro de Desarrollo de Software",
+  "groupMembers": [
+    "Pinzon Camacho Andres Felipe",
+    "Garcia Bernate Erick David",
+    "Savadera Martinez Hansel Santiago",
+    "Vargas Prado Miguel Angel",
+    "Guerra Suarez Sergio Ivan"
+  ],
+  "subject": "Proyecto Integrador I",
+  "shortDescription": "El Centro de Desarrollo de Software mostró evidencias de trabajo y comprensión técnica, pero su exposición careció de foco y presentó fallas en la comunicación, evidenciando una débil cohesión en su discurso final.",
+  "content": "El equipo del Centro de Desarrollo de Software presentó su propuesta dentro del marco de Proyecto Integrador I. Su objetivo fue ofrecer una solución de infraestructura tecnológica basada en un entorno de servicios de red, comunicación y DNS. Basaron su trabajo en la metodología SCRUM, adaptándola a su ritmo de trabajo y destacando el uso de herramientas como GitHub y Visual Studio Code para la coordinación.\r\n\r\nDurante la presentación, el grupo mostró evidencias claras de su esfuerzo: diagramas, videos y registros de las herramientas SCRUM. No obstante, los jurados cuestionaron la coherencia del discurso y la falta de precisión en el diseño de sus diagramas. Briceño enfatizó la confusión entre roles y la carencia de claridad en las soluciones software propuestas. Ali, Danith y Sandra también criticaron la falta de evidencia técnica en pruebas e infraestructura.\r\n\r\nEl equipo logró demostrar su trabajo, pero no consiguió comunicarlo con claridad. Un proyecto con buena base técnica, opacado por una presentación desordenada y una débil narrativa conclusiva.",
+  "mainImage": "proyecto21.jpg",
+  "date": "2025-10-29T14:40:00Z",
+  "quotes": [
+    {
+      "quote": "Según lo que tengo aquí ustedes son el centro de software, porque me dan soluciones de software, ¿quién desarrolló la página? No alcanzo a ver el diagrama de casos de uso, no se entiende.",
+      "quoteAuthor": "Briceño",
+      "quoteImage": "briceno.jpg"
+    },
+    {
+      "quote": "El objetivo general está perfecto, este es lo más cercano a un contrato, pero las conclusiones no reflejan la experiencia.",
+      "quoteAuthor": "Ali",
+      "quoteImage": "ali.jpg"
+    }
+  ]
+},
+{
+  "title": "Centro de Biotecnología: una conexión visible, pero con fallas de base",
+  "projectName": "Centro de Biotecnología",
+  "groupMembers": [
+    "Diaz Calderon Caren Julieth",
+    "Lopez Paredes Ivan Andres",
+    "Hernandez Remolina Juan Sebastian",
+    "Adarme Gomez Karen Liseth",
+    "Vargas Martinez Miguel Jose",
+    "Neira Ramirez Sebastian",
+    "Barragan Sanchez Silva Juliana",
+    "Tapias Fonseca Andersson Joneyder"
+  ],
+  "subject": "Proyecto Integrador I",
+  "shortDescription": "El Centro de Biotecnología logró demostrar interconexión y funcionamiento, pero su falta de estructura teórica y errores metodológicos restaron fuerza a la exposición.",
+  "content": "El equipo del Centro de Biotecnología presentó su propuesta como parte del ecosistema interconectado de los centros académicos. Basaron su trabajo en el marco SCRUM, aunque su aplicación práctica no se evidenció claramente en la exposición. Presentaron su topología general y mostraron, mediante video, la integración de su sistema de VoIP y la funcionalidad de su página web.\r\n\r\nA pesar de estos avances técnicos, los jurados coincidieron en la falta de claridad conceptual. Briceño señaló errores en la formulación del objetivo general, mientras que Danith y Ali criticaron la redacción, los factores externos poco justificados y la tendencia a hacer promesas excesivas en las conclusiones. La profesora también observó deficiencias en la lectura y proyección del material durante la exposición.\r\n\r\nEl equipo demostró avances funcionales, pero evidenció un descuido en su marco teórico y metodológico. Su trabajo técnico fue suficiente para destacar, pero su discurso no acompañó la misma solidez.",
+  "mainImage": "proyecto22.jpg",
+  "date": "2025-10-29T15:10:00Z",
+  "quotes": [
+    {
+      "quote": "Porque veo tres verbos en el objetivo general.",
+      "quoteAuthor": "Briceño",
+      "quoteImage": "briceno.jpg"
+    },
+    {
+      "quote": "El objetivo general debe ser general.",
+      "quoteAuthor": "Profesora",
+      "quoteImage": "centrobiotecnologia-quote2.jpg"
+    },
+    {
+      "quote": "Salvar el mundo en conclusiones es aburrido.",
+      "quoteAuthor": "Ali",
+      "quoteImage": "ali.jpg"
+    }
+  ]
+},
+{
+  "title": "Centro de Energías Renovables: trabajo visible, esencia ausente",
+  "projectName": "Centro de Energías Renovables",
+  "groupMembers": [
+    "Suarez Suarez Claudia Natalia",
+    "Gonzalez Avella Ivan Mateo",
+    "Aldana Rincon Johan Sebastian",
+    "Villamizar Gomez Leonel David",
+    "Arenales Peña Ronald Eduardo"
+  ],
+  "subject": "Proyecto Integrador I",
+  "shortDescription": "El Centro de Energías Renovables presentó un sólido desarrollo web y conexión funcional entre redes, pero falló en conectar su proyecto con la esencia temática del curso.",
+  "content": "El equipo del Centro de Energías Renovables inició su exposición mostrando la conexión global con los demás centros y la infraestructura general del proyecto. Trabajaron bajo el marco SCRUM, priorizando la implementación de bases de datos, la funcionalidad web y la integración con servicios de red, VoIP y correo electrónico. Su exposición incluyó un video que demostraba el funcionamiento de su página web, mostrando orden y ejecución técnica adecuada.\r\n\r\nSin embargo, los jurados coincidieron en que el grupo se alejó del enfoque principal del proyecto: las energías renovables. Briceño señaló la desconexión entre el contenido y el propósito, además de cuestionar errores conceptuales en su marco tecnológico. Ali y Danith criticaron la superficialidad en la explicación del avance y la incorrecta interpretación de ciertos procesos criptográficos.\r\n\r\nEl Centro de Energías Renovables logró una estructura técnica notable, pero su falta de coherencia temática y conceptual dejó una presentación sólida en ejecución, pero vacía en propósito.",
+  "mainImage": "proyecto23.jpg",
+  "date": "2025-10-29T15:40:00Z",
+  "quotes": [
+    {
+      "quote": "¿Dónde están las energías renovables y la gestión del proyecto? ¿Desde cuándo GitHub es un entorno de desarrollo?",
+      "quoteAuthor": "Briceño",
+      "quoteImage": "briceno.jpg"
+    },
+    {
+      "quote": "Cuando algo se cifra se puede cifrar, están aplicando un resumen criptográfico.",
+      "quoteAuthor": "Ali",
+      "quoteImage": "ali.jpg"
+    }
+  ]
+},
+{
+  "title": "Centro de Agroindustria Inteligente — Entre la automatización y la falta de enfoque",
+  "projectName": "Centro de Agroindustria Inteligente",
+  "groupMembers": [
+    "Alexer Mauricio Valero Quevedo",
+    "Daniela Quiroga Cubides",
+    "Julian Camilo Lamus Ruiz",
+    "Paula Andrea Rodriguez Cifuentes",
+    "Sergio Andres Espinel Arango"
+  ],
+  "subject": "Proyecto Integrador I",
+  "shortDescription": "El equipo presentó una plataforma para optimizar la gestión de proyectos agroindustriales mediante automatización. A pesar de su ambición técnica, el exceso de teoría y la falta de precisión en la presentación limitaron el impacto de su propuesta.",
+  "content": "Durante la jornada de presentaciones, el Centro de Agroindustria Inteligente expuso su propuesta para desarrollar una plataforma web que optimizara la gestión de proyectos agroindustriales con enfoque en la automatización de procesos y el apoyo a los campesinos. El equipo destacó que su iniciativa surgió dentro de la red de centros interconectados del Centro de Desarrollo de Software, implementando la metodología SCRUM para gestionar los avances.\r\n\r\nAunque la idea del sistema —con módulos enfocados en la administración de recursos agrícolas y la integración con entidades externas— resultó prometedora, la exposición se vio afectada por un marco teórico excesivamente extenso y una estructura de presentación poco dinámica. Los diagramas se mostraron sin suficiente explicación, lo que dificultó entender su aplicación práctica dentro del desarrollo del software.\r\n\r\nA pesar de esto, el grupo presentó evidencias técnicas de los servicios implementados mediante capturas de pantalla, demostrando cierto nivel de cumplimiento con los requerimientos planteados por el cliente. La propuesta dejó claro el esfuerzo y la intención de impactar positivamente en el sector agroindustrial, aunque aún requiere un mejor balance entre lo técnico y lo comunicativo para destacar plenamente en futuras etapas.",
+  "mainImage": "proyecto24.jpg",
+  "date": "2025-10-29T16:00:00Z",
+  "quotes": [
+    {
+      "quote": "Me gustaría saber en qué URL está la página.",
+      "quoteAuthor": "Briceño",
+      "quoteImage": "briceno.jpg"
+    },
+    {
+      "quote": "Salvaron el mundo (otra vez). ¿Cómo es que no se pudieron adaptar a SCRUM? SCRUM no se adapta, o se usa o no se usa. Se puso la responsabilidad, y uno se compromete en SCRUM. Buen trabajo.",
+      "quoteAuthor": "Ali",
+      "quoteImage": "ali.jpg"
+    }
+  ]
+},
+{
+  "title": "Centro de Robótica y Automatización — Una propuesta técnica que no logró integrarse",
+  "projectName": "Centro de Robótica y Automatización",
+  "groupMembers": [
+    "Dilan Kaleth Meneses Vega",
+    "Erick Emanuel Tamayo Diaz",
+    "Ivan Felipe Lastre Guerrero",
+    "Keyner Andres Loaiza Ardila",
+    "Melany Mejia Melo",
+    "Samuel Castro Ruiz"
+  ],
+  "subject": "Proyecto Integrador I",
+  "shortDescription": "El equipo presentó un sistema de gestión para proyectos de automatización con enfoque en servicios web y seguridad de red. Aunque mostraron dominio técnico, la falta de cohesión y claridad visual afectó la comprensión del trabajo.",
+  "content": "El Centro de Robótica y Automatización presentó su propuesta de solución tecnológica como parte de la red de centros interconectados. Su proyecto buscaba implementar servicios de red y una interfaz de gestión de proyectos orientada al área de automatización. La exposición incluyó una fundamentación teórica extensa y, en algunos momentos, un tono comparativo frente a otros equipos, resaltando sus avances en conectividad y auditoría.\r\n\r\nA pesar de utilizar tecnologías como Bootstrap para el desarrollo del frontend y garantizar una conexión segura dentro de su red, la presentación se vio afectada por diagramas ilegibles y falta de zoom en las diapositivas, lo que limitó la comprensión del diseño técnico. Los resultados de los sprints no fueron claros ni mostraron un avance coherente con los objetivos iniciales.\r\n\r\nEl grupo demostró conocimiento en redes y seguridad, pero su trabajo careció de integración efectiva con los demás centros, perdiendo parte del espíritu colaborativo del proyecto integrador.",
+  "mainImage": "proyecto25.jpg",
+  "date": "2025-10-29T16:30:00Z",
+  "quotes": [
+    {
+      "quote": "¿Me puede explicar el certificado de navegación? Ese certificado no se puede usar en localhost. ¿Qué es eso de base de datos espejo? ¿Dónde está la base de datos centralizada?",
+      "quoteAuthor": "Briceño",
+      "quoteImage": "briceno.jpg"
+    },
+    {
+      "quote": "¿Por qué no se interconectó con las demás redes, si todos tenían los servicios necesarios para hacerlo?",
+      "quoteAuthor": "Danith",
+      "quoteImage": "danith.jpg"
+    }
+  ]
+},
+{
+  "title": "Centro de Ciberseguridad — Confusión metodológica y un producto que no convenció",
+  "projectName": "Centro de Ciberseguridad",
+  "groupMembers": [
+    "Andres Santiago Ayala Mantilla",
+    "Jairo Esteban Dorias Barajas",
+    "Jose David Soria Rojas",
+    "Juan David Rincon Cediel"
+  ],
+  "subject": "Proyecto Integrador I",
+  "shortDescription": "El equipo presentó un prototipo funcional orientado a la ciberseguridad, pero mostró confusión en la aplicación de SCRUM y una débil estructura teórica. Aun así, lograron mostrar parcialmente el funcionamiento del sistema.",
+  "content": "El Centro de Ciberseguridad inició su exposición con una estructura similar a la de los demás equipos del bloque de Proyecto Integrador I, pero evidenció desde temprano una confusión conceptual al abordar la metodología SCRUM. Su diapositiva de 'Story Mapping' fue un punto crítico: mostraba desorden en los entregables y falta de claridad sobre el propósito de cada fase.\r\n\r\nEl grupo utilizó una metodología de prototipado y mostró un video donde se evidenciaba el funcionamiento general del sistema, enfocado en la gestión de proyectos y control de operaciones de red. Sin embargo, el marco teórico fue pobre y el apartado metodológico superficial. Pese a las inconsistencias, los diagramas presentados fueron entendibles y demostraron un esfuerzo por representar la estructura lógica del proyecto.\r\n\r\nEn general, su propuesta mostró potencial técnico, pero la falta de cohesión conceptual y la limitada articulación con otros centros redujeron el impacto esperado del proyecto.",
+  "mainImage": "proyecto26.jpg",
+  "date": "2025-10-29T17:00:00Z",
+  "quotes": [
+    {
+      "quote": "Eso es una aplicación, un prototipo funcional, ¿o qué es? Creí que eran estudiantes que prestaban atención. ¿Si se logró? ¿Cómo te integraste con los demás?",
+      "quoteAuthor": "Danith",
+      "quoteImage": "danith.jpg"
+    },
+    {
+      "quote": "En los objetivos se menciona una política, ¿dónde está? Auditorías, ¿cómo las realizaron? ¿Cómo así que es un chatbot, es un bot solamente?",
+      "quoteAuthor": "Briceño",
+      "quoteImage": "briceno.jpg"
+    },
+    {
+      "quote": "¿Qué querían representar en el diagrama de paquetes?",
+      "quoteAuthor": "Ali",
+      "quoteImage": "ali.jpg"
+    }
+  ]
+},
+{
+  "title": "Centro de Soluciones Smart Cities — Ausencia total en la jornada",
+  "projectName": "Centro de Soluciones Smart Cities",
+  "groupMembers": [
+    "Alex Santiago Ferrucho Cristhanco",
+    "Sergio Ismael Contreras Sanchez"
+  ],
+  "subject": "Proyecto Integrador I",
+  "shortDescription": "El grupo no se presentó durante su espacio asignado, dejando vacía una oportunidad para mostrar su propuesta sobre soluciones inteligentes para ciudades sostenibles.",
+  "content": "Durante el bloque final de presentaciones, el Centro de Soluciones Smart Cities no se presentó ante el jurado. La ausencia fue notoria, especialmente considerando el interés que despertaba su tema centrado en tecnologías aplicadas a la gestión urbana y las ciudades sostenibles. La falta de entrega o sustentación implicó la pérdida de la posibilidad de evaluación técnica y conceptual, así como de la exposición de resultados ante sus compañeros y docentes.",
+  "mainImage": "proyecto27.jpg",
+  "date": "2025-10-29T17:30:00Z",
+  "quotes": [
+    {
+      "quote": "El grupo no se presentó.",
+      "quoteAuthor": "Registro académico",
+      "quoteImage": "proyecto17-quote1.jpg"
+    }
+  ]
+},
+ {
+    "title": "UPB Study+ — Soñar en grande desde los primeros pasos",
+    "projectName": "UPB Study+",
+    "groupMembers": [
+      "Julian Camilo Garcia Rincon",
+      "Angela Daniela Parra Afanador",
+      "Sarey Nalieth Salguero Landinez",
+      "Jesus David Suarez Henao",
+      "Ivanna Gisell Suarez Martinez",
+      "Jader Aldrey Suarez Sanchez"
+    ],
+    "subject": "Introducción a Ingeniería de Sistemas e Informática",
+    "shortDescription": "El equipo presentó una aplicación diseñada para fortalecer la comunicación entre estudiantes y docentes. A pesar de su sencillez técnica, el esfuerzo y la visión del grupo reflejan el inicio de un camino prometedor.",
+    "content": "Durante la jornada de proyectos integradores, el equipo de UPB Study+ presentó una aplicación orientada a mejorar la conectividad entre los estudiantes y sus docentes. El desarrollo fue realizado mediante una herramienta de seudocódigo basada en bloques, con un enfoque práctico y visual. Aunque el proyecto careció de un marco teórico robusto, los estudiantes lograron integrar un marco legal que demuestra su intención de formalizar la idea.\n\nLa presentación incluyó capturas de pantalla y un video explicativo sobre la navegación y las funciones de la aplicación. Los jurados destacaron tanto la creatividad como la claridad en la exposición, reconociendo que, pese a la inexperiencia, el grupo asumió el reto con entusiasmo y responsabilidad.\n\nEl equipo recibió comentarios positivos por su empeño y su presentación visual. Los docentes los motivaron a seguir desarrollando la idea y convertir los fundamentos legales en requerimientos funcionales. UPB Study+ deja claro que soñar en grande es el primer paso hacia la innovación.",
+    "mainImage": "proyecto28.jpg",
+    "date": "2025-10-30T08:40:00.000Z",
+    "quotes": [
+      {
+        "quote": "Los felicito por el video, porque hay un empeño y calidad en la presentación.",
+        "quoteAuthor": "Sandra",
+        "quoteImage": "sandra.jpg"
+      },
+      {
+        "quote": "Este es el comienzo donde se vale soñar, y qué mejor que empezar desde ya.",
+        "quoteAuthor": "Profesor",
+        "quoteImage": "proyecto2-quote2.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Pet Finder — Inteligencia artificial para encontrar a los amigos perdidos",
+    "projectName": "Pet Finder",
+    "groupMembers": [
+      "Alex Santiago Jaimes Medina",
+      "Andres Felipe Ochoa Quiroz",
+      "Javier Alberto Ospina Capacho",
+      "Juan David Vera Rojas"
+    ],
+    "subject": "Introducción a Ingeniería de Sistemas e Informática",
+    "shortDescription": "El equipo presentó una aplicación móvil basada en inteligencia artificial y geolocalización para ayudar a encontrar mascotas perdidas. Aunque hubo fallas en la presentación, la idea demostró potencial técnico y sensibilidad social.",
+    "content": "Pet Finder fue uno de los proyectos más llamativos por su enfoque social. La aplicación busca asistir a los dueños de mascotas en la localización de animales extraviados mediante inteligencia artificial y geolocalización. Utilizando la herramienta Teachable Machine, el equipo entrenó un modelo capaz de reconocer el entorno y características de las mascotas a partir de imágenes.\n\nDurante la exposición, los estudiantes enfrentaron dificultades técnicas al mostrar sus resultados, lo que interrumpió brevemente la dinámica. Sin embargo, lograron presentar un video demostrativo del funcionamiento del sistema. Los jurados valoraron la intención del proyecto, aunque señalaron que la presentación necesitaba mayor estructura y dominio de los tiempos.\n\nPet Finder se consolida como una idea con alto impacto social y con espacio para perfeccionarse. A medida que los estudiantes adquieran más experiencia, podrán convertir este prototipo en una herramienta real que beneficie a la comunidad.",
+    "mainImage": "proyecto29.jpg",
+    "date": "2025-10-30T09:00:00.000Z",
+    "quotes": [
+      {
+        "quote": "El video son sus quince minutos de gloria; la presentación se ve muy apagada.",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      },
+      {
+        "quote": "Las ideas llevadas a método y funcionalidad son por lo que pagan las personas.",
+        "quoteAuthor": "Profesor",
+        "quoteImage": "proyecto3-quote2.jpg"
+      }
+    ]
+  },
+  {
+    "title": "UPB Señas — Rompiendo barreras con tecnología inclusiva",
+    "projectName": "UPB Señas",
+    "groupMembers": [
+      "Juan Sebastian Rodriguez Garcia",
+      "David Andres Santa Marin",
+      "Jesus Manuel Alexander Saravia Garcia",
+      "Nicolas Vargas Pradilla"
+    ],
+    "subject": "Introducción a Ingeniería de Sistemas e Informática",
+    "shortDescription": "UPB Señas presentó una aplicación que traduce el lenguaje de señas mediante inteligencia artificial, impulsando la inclusión y la comunicación accesible.",
+    "content": "El equipo de UPB Señas presentó una propuesta con un enfoque humano e inclusivo: una aplicación capaz de reconocer y traducir el lenguaje de señas mediante inteligencia artificial. La solución busca facilitar la comunicación entre personas sordas y oyentes, promoviendo la accesibilidad a través de la tecnología.\n\nDurante su exposición, los integrantes mostraron los bloques de programación utilizados en MIT App Inventor y un video demostrativo del funcionamiento de su prototipo. Además, compartieron un análisis del impacto esperado, destacando los beneficios sociales que su aplicación podría generar.\n\nLos jurados reconocieron el potencial transformador del proyecto, recomendando al equipo fortalecer el dominio del lenguaje técnico y profundizar en los fundamentos conceptuales. UPB Señas representa un ejemplo inspirador de cómo la tecnología puede ponerse al servicio de la inclusión.",
+    "mainImage": "proyecto30.jpg",
+    "date": "2025-10-30T09:20:00.000Z",
+    "quotes": [
+      {
+        "quote": "Estas ideas son las que se pueden transformar en un futuro proyecto de grado.",
+        "quoteAuthor": "Sandra",
+        "quoteImage": "sandra.jpg"
+      },
+      {
+        "quote": "El lenguaje, deben practicar los términos y ampliar su vocabulario; eso fue código, esto es programar.",
+        "quoteAuthor": "Profesora",
+        "quoteImage": "proyecto4-quote2.jpg"
+      }
+    ]
+  },
+  {
+    "title": "ElectroMed — Tecnología para mejorar la gestión clínica",
+    "projectName": "ElectroMed",
+    "groupMembers": [
+      "Maria Jose Abello Jimenez",
+      "Ana Gabriela Afanador Carrascal",
+      "Rogger Santiago Jaimes Cala",
+      "Alex Daniel Montañez Valenzuela",
+      "Juan Nicolas Rey Vasquez",
+      "Juan Felipe Tabares Pelaez",
+      "Juliana Chavez King"
+    ],
+    "subject": "Proyecto Integrador III",
+    "shortDescription": "ElectroMed propone una bitácora digital para gestionar datos clínicos y reducir errores en el registro de electrolitos. Una propuesta con base técnica sólida y compromiso de equipo.",
+    "content": "En un contexto donde los errores en el registro de datos médicos pueden tener graves consecuencias, el equipo de ElectroMed presentó una solución innovadora: una aplicación web y móvil para registrar y consultar datos clínicos de forma segura. El proyecto se desarrolló bajo el marco de trabajo SCRUM, rotando el rol de Product Owner entre los miembros del equipo para fomentar la responsabilidad compartida.\n\nLa exposición incluyó marcos conceptual y tecnológico bien estructurados, diagramas explicativos, mockups, diseño de interfaz y una paleta de colores definida. Los estudiantes demostraron comprensión de los procesos de desarrollo y del impacto real de su propuesta en el entorno sanitario.\n\nLos jurados destacaron la presentación técnica y la claridad del enfoque, aunque señalaron la falta de pruebas de aceptación y referencias gráficas. ElectroMed demuestra que el trabajo en equipo, la organización y la visión práctica son esenciales para convertir un proyecto académico en una herramienta de valor profesional.",
+    "mainImage": "proyecto31.jpg",
+    "date": "2025-10-30T10:00:00.000Z",
+    "quotes": [
+      {
+        "quote": "¿Qué es un electrolito?, ¿cómo funciona el gráfico?; malas conclusiones; no entiendo razón de Vercel.",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      },
+      {
+        "quote": "¿Usaron algún patrón de diseño de software?",
+        "quoteAuthor": "Francisco",
+        "quoteImage": "francisco.jpg"
+      }
+    ]
+  },
+   {
+    "title": "Blesshealth24/7 — Tecnología con propósito humano",
+    "projectName": "Blesshealth24/7",
+    "groupMembers": [
+      "Emmanuel Manjova Acosta Cordes",
+      "Sergio David Mesa Pelaez",
+      "Juan David Muzo Rojas",
+      "David Santiago Niño Arenas"
+    ],
+    "subject": "Proyecto Integrador III",
+    "shortDescription": "El equipo Blesshealth24/7 presentó una aplicación móvil para gestionar insumos médicos. Aunque la idea es solidaria y con enfoque social, la ejecución técnica dejó vacíos importantes en organización y dominio del tema.",
+    "content": "El equipo Blesshealth24/7 se presentó bajo el lema \"Blesshealth siempre piensa en el prójimo\". Su proyecto propone una aplicación móvil que facilite la gestión de compras de insumos para pacientes, respondiendo a necesidades detectadas en centros médicos de Santander. La metodología utilizada fue la de prototipado, buscando validación continua con el cliente, y el marco de trabajo fue SCRUM.\n\nDurante la presentación, los estudiantes explicaron sus roles y cómo cada sprint contribuyó al progreso del proyecto. Mostraron su marco conceptual, los patrones de diseño y las técnicas empleadas, aunque se notó la falta de referencias en el marco tecnológico y poca claridad en los diagramas. El ritmo de exposición disminuyó hacia el final, evidenciando desorden y escasa preparación.\n\nLos jurados cuestionaron el dominio técnico del grupo, especialmente en conceptos como el sobreajuste, optimizadores y uso de librerías. Aun así, reconocieron la intención de crear una herramienta con impacto positivo en el sector salud. Blesshealth24/7 deja una enseñanza importante: la buena voluntad debe ir acompañada de rigor técnico y claridad metodológica.",
+    "mainImage": "proyecto32.jpg",
+    "date": "2025-10-30T10:30:00.000Z",
+    "quotes": [
+      {
+        "quote": "¿Qué significa capa de sobreajuste? ¿Overfitting? ¿Qué optimizador usan?",
+        "quoteAuthor": "Briseño",
+        "quoteImage": "proyecto6-quote1.jpg"
+      },
+      {
+        "quote": "Mucha paz mundial; la ley es la ley; ¿por qué es importante el modelo de datos?",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      }
+    ]
+  },
+  {
+    "title": "TONGI — Comunicación sin barreras desde la nube",
+    "projectName": "TONGI",
+    "groupMembers": [
+      "Fernando Javier Vega Sabino",
+      "Juan David Carvajal Rondon",
+      "Cristian Mauricio Rodriguez Cubides",
+      "Jose Daniel Montero Gutierrez",
+      "Juan David Patiño Parra"
+    ],
+    "subject": "Proyecto Integrador III",
+    "shortDescription": "El proyecto TONGI busca eliminar las barreras lingüísticas mediante una aplicación web y móvil con modos de traducción inteligentes. Destacó su despliegue en Azure y la integración de automatización CI/CD.",
+    "content": "El equipo TONGI presentó una propuesta ambiciosa: una aplicación web y móvil enfocada en mejorar la comunicación entre personas con distintas lenguas o niveles de gramática. El proyecto busca ofrecer tres modos de traducción para adaptarse a las necesidades de los usuarios. El marco conceptual fue claro y conciso, complementado con la presentación de patrones arquitectónicos y un entorno técnico sólido.\n\nEl grupo destacó por su implementación en la nube de Azure y el uso de Jenkins para automatizar reglas de aceptación en los pull requests, lo que demuestra madurez en procesos de integración y entrega continua (CI/CD). Además, expusieron diagramas de arquitectura, clases de backend y flujos de automatización.\n\nAunque los jueces señalaron aspectos por mejorar —como el uso del tiempo y la claridad de ciertos términos—, TONGI sobresale por su organización, aplicación de metodologías modernas y visión técnica. Es un ejemplo de cómo la ingeniería puede derribar barreras comunicativas a través de la tecnología.",
+    "mainImage": "proyecto33.jpg",
+    "date": "2025-10-30T11:00:00.000Z",
+    "quotes": [
+      {
+        "quote": "Atributos públicos no van en diagrama de clases; usen términos claros; enfoquen más el PI3.",
+        "quoteAuthor": "Ali",
+        "quoteImage": "ali.jpg"
+      },
+      {
+        "quote": "Confío en las apreciaciones de mi compañero, felicitaciones.",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      }
+    ]
+  },
+  {
+    "title": "PicLab — Procesamiento distribuido para el manejo de imágenes",
+    "projectName": "PicLab",
+    "groupMembers": [
+      "Nelson Y. Diaz Gomez"
+    ],
+    "subject": "Sistemas Distribuidos",
+    "shortDescription": "PicLab presenta una arquitectura distribuida para almacenar imágenes mediante SOAP, RMI y REST. Un esfuerzo técnico individual que evidencia comprensión del diseño de sistemas distribuidos.",
+    "content": "El proyecto PicLab, desarrollado en el marco de la asignatura de Sistemas Distribuidos, propone una solución técnica centrada en el almacenamiento y gestión de imágenes mediante servicios distribuidos. Su arquitectura integra múltiples protocolos: SOAP para la comunicación entre el cliente y el servidor de aplicación, RMI para la interacción entre nodos y REST para la interoperabilidad general del sistema.\n\nEl desarrollo fue acompañado por el uso del marco de trabajo Kanbas, y se destacó la conexión entre el servidor de aplicación y la base de datos principal. A pesar de ser un proyecto individual, demuestra dominio en la implementación de servicios distribuidos y una estructura coherente.\n\nLos jurados cuestionaron la secuencia de diseño y la justificación del uso de SOAP frente a REST, resaltando la necesidad de mayor precisión conceptual. PicLab muestra que incluso proyectos individuales pueden reflejar un entendimiento técnico sólido cuando se abordan con disciplina y claridad.",
+    "mainImage": "proyecto34.jpg",
+    "date": "2025-10-30T11:30:00.000Z",
+    "quotes": [
+      {
+        "quote": "¿Por qué decidió primero el producto y luego la ingeniería? REST es un estilo arquitectónico, no un protocolo.",
+        "quoteAuthor": "Ali",
+        "quoteImage": "ali.jpg"
+      },
+      {
+        "quote": "¿Por qué usas SOAP? 'Comunica con REST' requiere precisión.",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Histofy — Digitalizando las historias clínicas con visión médica",
+    "projectName": "Histofy",
+    "groupMembers": [
+      "Camilo Alfonso Castro Ortiz",
+      "Juan Angel Gomez Bueno",
+      "Antonella Meneses Rojas",
+      "Valentina Tellez Salazar",
+      "Angie Lorena Villareal Vasquez"
+    ],
+    "subject": "Proyecto Integrador III",
+    "shortDescription": "Histofy busca mejorar la gestión y protección de historias clínicas mediante una aplicación móvil y de escritorio con OCR, CI/CD y monitoreo en la nube.",
+    "content": "Histofy surge como respuesta a los problemas recurrentes en la gestión de historias clínicas dentro del sector médico. El equipo diseñó una aplicación móvil para los profesionales de salud y una versión de escritorio destinada a la administración de datos. El proyecto utiliza un servicio de OCR para extraer información relevante y se apoya en un entorno de nube AWS.\n\nDurante la exposición, los estudiantes explicaron su aplicación de las seis etapas del ciclo de vida del software, bajo la metodología Kanban. También presentaron un sistema de CI/CD y un componente de monitoreo capaz de generar métricas de rendimiento. Sin embargo, el diagrama de casos de uso no cumplió con los estándares UML, y el marco tecnológico fue abordado superficialmente.\n\nLos jurados coincidieron en que la propuesta tiene gran potencial, pero necesita mayor precisión y mejor administración del tiempo. Histofy demuestra cómo la ingeniería puede aplicarse a contextos clínicos reales, donde la responsabilidad técnica y ética se entrelazan en cada línea de código.",
+    "mainImage": "proyecto35.jpg",
+    "date": "2025-10-30T14:00:00.000Z",
+    "quotes": [
+      {
+        "quote": "Proyecto bueno, pero manejo del tiempo; si introducen nueva simbología, definanla; la ley contempla protección de datos sensibles.",
+        "quoteAuthor": "Ali",
+        "quoteImage": "ali.jpg"
+      },
+      {
+        "quote": "Mucho drama con el tiempo para no demostrar; aplicación deficiente y sin coordinación; no parece PI3.",
+        "quoteAuthor": "Lenin",
+        "quoteImage": "lenin.jpg"
+      }
+    ]
+  }
+
+
+
+
+
+
+
+
+
+
+]

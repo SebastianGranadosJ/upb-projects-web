@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= news.title %> | Noticias UPB</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/banner.css" />
+    <link rel="stylesheet" href="/css/news-detail.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+  </head>
+
+  <body class="bg-light">
+    <!-- Banner -->
+    <%- include('banner') %>
+
+    <main class="container my-5">
+      <article class="news-article mx-auto">
+        <!-- Botón volver atrás -->
+        <div class="mb-3">
+          <button
+            type="button"
+            class="btn btn-outline-danger d-flex align-items-center gap-2"
+            onclick="history.back()"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-left"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15 8a.5.5 0 0 1-.5.5H3.707l3.147 3.146a.5.5 0 0 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L3.707 7.5H14.5A.5.5 0 0 1 15 8z"
+              />
+            </svg>
+            Volver
+          </button>
+        </div>
+
+        <!-- Título -->
+        <h1 class="news-title mb-3"><%= news.title %></h1>
+
+        <!-- Meta información -->
+        <div class="news-meta mb-4">
+          <span class="text-muted">
+            <%= new Date(news.date).toLocaleDateString('es-ES', { weekday:
+            'long', day: 'numeric', month: 'long', year: 'numeric' }) %>
+          </span>
+          <div class="meta-secondary mt-2">
+            <strong>Materia:</strong> <%= news.subject %> |
+            <strong>Proyecto:</strong> <%= news.projectName %> |
+            <strong>Integrantes:</strong> <%= news.groupMembers.join(", ") %>
+          </div>
+        </div>
+
+        <!-- Imagen principal -->
+        <figure class="news-image mb-4">
+          <img
+            src="/img/news/<%= news.mainImage %>"
+            alt="<%= news.title %>"
+            class="img-fluid rounded"
+            onerror="this.src='/img/news/no-found.jpg';"
+          />
+        </figure>
+        <!-- Sección de comentarios -->
+        <% if (news.quotes && news.quotes.length > 0) { %>
+        <div class="news-quotes-container">
+          <% news.quotes.forEach((q) => { %>
+          <div class="news-quote">
+            <% if (q.quoteImage) { %>
+            <img
+              src="/img/news/<%= q.quoteImage %>"
+              alt="Autor del comentario"
+              class="quote-img"
+              onerror="this.src='/img/news/no-found.jpg';"
+            />
+            <% } %>
+
+            <div class="news-quote-content">
+              <p class="quote-text"><%= q.quote %></p>
+              <% if (q.quoteAuthor) { %>
+              <p class="quote-author">— <%= q.quoteAuthor %></p>
+              <% } %>
+            </div>
+          </div>
+          <% }) %>
+        </div>
+        <% } %>
+
+        <!-- Contenido principal -->
+        <section class="news-content">
+          <p><%= news.content %></p>
+        </section>
+      </article>
+    </main>
+
+    <%- include('footer') %>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

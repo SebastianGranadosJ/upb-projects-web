@@ -1,0 +1,26 @@
+.footer {
+  background-color: #000; /* Fondo negro */
+  color: #f1f1f1; /* Texto claro */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: auto; /* Para empujar el footer al final cuando haya poco contenido */
+}
+
+.footer-text {
+  margin: 0;
+}
+
+.footer a {
+  color: #f1f1f1;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer a:hover {
+  color: #ff4444; /* Toque rojo para hover */
+}

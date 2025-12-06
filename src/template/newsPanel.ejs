@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>News Panel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/news.css" />
+    <link rel="stylesheet" href="/css/banner.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+  </head>
+
+  <body class="bg-light">
+    <!-- Banner principal -->
+    <%- include('banner') %>
+
+    <!-- Últimas noticias destacadas -->
+    <section class="container my-5 latest-news-panel">
+      <h2 class="text-white fw-bold mb-4">Últimas Noticias</h2>
+
+      <div class="row">
+        <% if (latestNews.length > 0) { %>
+        <!-- Noticia principal -->
+        <div class="col-lg-8 mb-4 mb-lg-0">
+          <a
+            href="/news/v1.0/news/<%= encodeURIComponent(latestNews[0].title) %>"
+            class="text-decoration-none text-light"
+          >
+            <div class="main-news position-relative" style="cursor: pointer">
+              <img
+                src="/img/news/<%= latestNews[0].mainImage %>"
+                alt="<%= latestNews[0].title %>"
+                class="img-fluid rounded main-news-img"
+                onerror="this.onerror=null; this.src='/img/news/no-found.jpg';"
+              />
+              <div class="main-news-overlay p-3">
+                <h4 class="fw-bold"><%= latestNews[0].title %></h4>
+                <p class="text-light small mb-1">
+                  <strong><%= latestNews[0].projectName %></strong> — <%=
+                  latestNews[0].subject %>
+                </p>
+              </div>
+            </div>
+          </a>
+          <% } %>
+        </div>
+
+        <!-- Noticias secundarias -->
+        <div class="col-lg-4">
+          <ul class="list-group list-group-flush">
+            <% latestNews.slice(1, 5).forEach(item => { %>
+            <li class="list-group-item bg-dark text-white latest-item p-0">
+              <a
+                href="/news/v1.0/news/<%= encodeURIComponent(item.title) %>"
+                class="text-decoration-none text-white d-block p-3"
+                style="cursor: pointer"
+              >
+                <div class="d-flex">
+                  <img
+                    src="/img/news/<%= item.mainImage %>"
+                    alt="<%= item.title %>"
+                    class="rounded me-3 latest-thumb"
+                    onerror="this.onerror=null; this.src='/img/news/no-found.jpg';"
+                  />
+                  <div>
+                    <h6 class="fws -bold mb-1"><%= item.title %></h6>
+                    <small class="secondary-meta d-block">
+                      <%= item.projectName %> — <%= item.subject %>
+                    </small>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <% }) %>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <main class="container my-5">
+      <h2 class="text-center mb-4 fw-bold text-uppercase text-danger">
+        Noticias Jornada de Proyectos UPB
+      </h2>
+
+      <!-- Barra de búsqueda -->
+      <div class="text-center mb-4">
+        <form
+          id="searchForm"
+          class="d-flex justify-content-center"
+          role="search"
+        >
+          <input
+            id="searchInput"
+            type="text"
+            class="form-control w-50 me-2 border-danger"
+            placeholder="Buscar noticias..."
+            aria-label="Buscar noticias"
+            value="<%= query || '' %>"
+          />
+          <button type="submit" class="btn btn-danger fw-bold">Buscar</button>
+        </form>
+      </div>
+
+      <!-- Contenedor de noticias -->
+      <div id="news-container" class="row g-4">
+        <% news.forEach(item => { const itemDate = new Date(item.date); const
+        dayName =
+        ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'][itemDate.getDay()];
+        const label = `${dayName}-${itemDate.getDate()}`; %>
+        <div class="col-12 col-md-6 col-lg-4 news-item">
+          <a
+            href="/news/v1.0/news/<%= encodeURIComponent(item.title) %>"
+            class="text-decoration-none text-dark"
+          >
+            <div class="card h-100 shadow-sm border-0" style="cursor: pointer">
+              <img
+                src="/img/news/<%= item.mainImage %>"
+                class="card-img-top news-image"
+                alt="<%= item.title %>"
+                onerror="this.onerror=null; this.src='/img/news/no-found.jpg';"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-danger fw-bold">
+                  <%= item.title %>
+                </h5>
+                <p class="card-text text-muted mb-1">
+                  <strong>Materia:</strong> <%= item.subject %>
+                </p>
+                <p class="card-text small text-secondary">
+                  <%= item.shortDescription %>
+                </p>
+                <hr />
+                <p class="card-text">
+                  <strong>Proyecto:</strong> <%= item.projectName %><br />
+                  <strong>Integrantes:</strong> <%= item.groupMembers.join(", ")
+                  %>
+                </p>
+              </div>
+              <div class="card-footer bg-white text-end">
+                <small class="text-muted"><%= label %></small>
+              </div>
+            </div>
+          </a>
+        </div>
+        <% }) %>
+      </div>
+
+      <nav class="mt-4 text-center">
+        <ul id="pagination" class="pagination justify-content-center">
+          <% for (let i = 1; i <= totalPages; i++) { %>
+          <li class="page-item <%= i === currentPage ? 'active' : '' %>">
+            <button
+              class="page-link"
+              data-page="<%= i %>"
+              data-query="<%= query || '' %>"
+              onclick="loadNews(this.dataset.page, this.dataset.query)"
+            >
+              <%= i %>
+            </button>
+          </li>
+          <% } %>
+        </ul>
+      </nav>
+    </main>
+
+    <%- include('footer') %>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Script de búsqueda y paginación dinámica -->
+    <script>
+      const form = document.getElementById("searchForm");
+      const input = document.getElementById("searchInput");
+      const container = document.getElementById("news-container");
+      const pagination = document.getElementById("pagination");
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        await loadNews(1, input.value);
+      });
+
+      async function loadNews(page = 1, query = "") {
+        const res = await fetch(
+          `/news/api/search?page=${page}&q=${encodeURIComponent(query)}`
+        );
+        const data = await res.json();
+
+        // Render de noticias
+        container.innerHTML = data.results
+          .map((item) => {
+            const date = new Date(item.date);
+            const dayName = [
+              "Domingo",
+              "Lunes",
+              "Martes",
+              "Miércoles",
+              "Jueves",
+              "Viernes",
+              "Sábado",
+            ][date.getDay()];
+            const label = `${dayName}-${date.getDate()}`;
+            return `
+        <div class="col-12 col-md-6 col-lg-4 news-item">
+          <a href="/news/v1.0/news/${encodeURIComponent(
+            item.title
+          )}" class="text-decoration-none text-dark">
+            <div class="card h-100 shadow-sm border-0" style="cursor: pointer">
+              <img
+                src="/img/news/${item.mainImage}"
+                class="card-img-top news-image"
+                alt="${item.title}"
+                onerror="this.onerror=null; this.src='/img/news/no-found.jpg';"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-danger fw-bold">${item.title}</h5>
+                <p class="card-text text-muted mb-1"><strong>Materia:</strong> ${
+                  item.subject
+                }</p>
+                <p class="card-text small text-secondary">${
+                  item.shortDescription
+                }</p>
+                <hr />
+                <p class="card-text">
+                  <strong>Proyecto:</strong> ${item.projectName}<br />
+                  <strong>Integrantes:</strong> ${item.groupMembers.join(", ")}
+                </p>
+              </div>
+              <div class="card-footer bg-white text-end">
+                <small class="text-muted">${label}</small>
+              </div>
+            </div>
+          </a>
+        </div>`;
+          })
+          .join("");
+
+        // Render de paginación
+        pagination.innerHTML = Array.from(
+          { length: data.totalPages },
+          (_, i) => {
+            const pageNum = i + 1;
+            return `
+        <li class="page-item ${pageNum === data.currentPage ? "active" : ""}">
+          <button class="page-link" onclick="loadNews(${pageNum}, '${query}')">${pageNum}</button>
+        </li>
+      `;
+          }
+        ).join("");
+      }
+    </script>
+  </body>
+</html>

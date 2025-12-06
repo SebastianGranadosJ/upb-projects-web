@@ -1,0 +1,68 @@
+.banner {
+  background-color: white;
+  border-bottom: 4px solid #b71c1c; /* línea roja institucional */
+  padding: 1.5rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.banner-logo {
+  width: 120px;
+  height: auto;
+}
+
+.banner-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+  .banner {
+    padding: 1.2rem 2rem;
+  }
+
+  .banner-logo {
+    width: 100px;
+  }
+
+  .banner-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Móviles */
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .banner-logo {
+    width: 90px;
+    margin-bottom: 10px;
+  }
+
+  .banner-title {
+    font-size: 1.3rem;
+  }
+}
+
+/* Pantallas muy pequeñas */
+@media (max-width: 480px) {
+  .banner-title {
+    font-size: 1.1rem;
+  }
+
+  .banner-logo {
+    width: 80px;
+  }
+}
